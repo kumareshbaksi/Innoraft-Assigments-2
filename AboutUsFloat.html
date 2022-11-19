@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            height: 100vh;
+            background-color: #c5fbee;
+            margin-top: none;
+        }
+
+        .top {
+            width: 100%;
+            height: 25%;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        .top h1 {
+            position: relative;
+            top: 40%;
+        }
+
+        .bottom {
+            width: 100%;
+            height: 75%;
+        }
+
+        .leftside {
+            width: 30%;
+            height: 90%;
+            float: left;
+            position: relative;
+            left: 10%;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+        .leftside img {
+            height: 45%;
+            width: 90%;
+            border-radius: 20px;
+            margin-top: 20px;
+            position: relative;
+            left: 18px;
+        }
+        .rightside {
+            width: 45%;
+            height: 90%;
+            background-color: white;
+            border-radius: 20px;
+            float: right;
+            position: relative;
+            right: 10%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .subconent{
+            position: relative;
+            top: 10%;
+            padding: 20px;
+        }
+        button {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid black;
+            border-radius: 20px;
+            background: none;
+            color: black;
+            height: 40px;
+            width: 140px;
+            cursor: pointer;
+        }
+        .firstpart {
+            width: 100%;
+            height: 35%;
+            border-radius: 20px;
+
+        }
+
+        .firstpart img {
+            width: 40%;
+            height: 90%;
+            border-radius: 20px;
+            margin-left: 10px;
+            float: left;
+            margin-top: 10px;
+        }
+
+        .subconent_firstpart{
+            margin-top: 10px;
+            float: right;
+        }
+
+        .secondpart {
+            width: 100%;
+            height: 35%;
+            border-radius: 20px;
+
+        }
+
+        .subconent_secondpart{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+
+        .subconent_secondpart p{
+            padding: 10px;
+        }
+
+        .secondpart img {
+            width: 40%;
+            height: 90%;
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        .rightBtn{
+            float: right;
+        }
+
+        hr.solid {
+            border-top: 1px solid rgb(0, 0, 0);
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .leftBtn {
+            margin-left: 20px;
+            background-color: black;
+            color: white;
+        }
+
+        hr.dashed {
+            border-top: 1px dashed rgb(0, 0, 0);
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .arrow {
+            border: solid rgb(255, 255, 255);
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .arrow2 {
+            border: solid rgb(0, 0, 0);
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .readMore
+        {
+            background-color: white;
+            border: none;
+            color: black;
+            padding: 0 0 ;
+            height: 50px;
+            width: 100px;
+        }
+
+        .rightBtn {
+            margin-right: 20px;
+            background-color: navy;
+            color: white;
+            border: none;
+
+        }
+
+        .thirdpart h3{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>About Us</h1>
+        </div>
+        <div class="bottom">
+            <div class="leftside">
+                <img src="./img-01.png" alt="bird">
+                <div class="subconent">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit  adipisicing elit. Explbo, expedita!</p>
+                    <button class="readMoreBtn">Read More <i class="arrow right"></i></button>
+                </div>
+            </div>
+            <div class="rightside">
+                <div class="firstpart">
+                    <img src="./img-01.png" alt="bird">
+                    <div class="subconent_firstpart">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet  Explbo, expedita!</p>
+                        <button class="readMore">Read More <i class="arrow2 right"></i></button>
+                    </div>
+                </div>
+                <hr class="dashed">
+                <div class="secondpart">
+                    <img src="./img-01.png" alt="bird">
+                    <div class="subconent_secondpart">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                    </div>
+                </div>
+                <hr class="dashed">
+                <div class="thirdpart">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <hr class="solid">
+                <div class="fourthpart">
+                    <button class="leftBtn">Read More <i class="arrow right"></i></button>
+                    <button class="rightBtn">Read More <i class="arrow right"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
